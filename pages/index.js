@@ -14,7 +14,7 @@ const Home = () => {
               <img src="/images/phone.png" alt="phone" className="w-full" />
               <div className="md:hidden flex justify-center w-full">
                 <button
-                  className="btn border-none py-2 btn-wide bg-gradient-to-r from-[#8456EC] to-[#E87BF8] text-white rounded-lg"
+                  className="btn border-none py-2 w-full bg-gradient-to-r from-[#8456EC] to-[#E87BF8] text-white rounded-lg"
                   onClick={() => router.push("/create")}
                 >
                   🎉 Create my event
