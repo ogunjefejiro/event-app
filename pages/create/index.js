@@ -70,7 +70,7 @@ const Create = () => {
           <button className="text-[#4F4F4F]" onClick={handleCancel}>
             Cancel
           </button>
-          <h1 className="text-4xl text-primary font-semibold my-10">Create Your Event</h1>
+          <h1 className="text-3xl md:text-4xl text-primary font-semibold my-6 md:my-10">Create Your Event</h1>
           <div className="flex flex-col-reverse md:flex-row gap-12">
             <div className="w-full">
               <div className="space-y-6">
