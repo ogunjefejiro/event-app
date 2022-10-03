@@ -74,36 +74,41 @@ const Create = () => {
           <div className="flex flex-col-reverse md:flex-row gap-12">
             <div className="w-full">
               <div className="space-y-6">
-                <InputField name="hostName" label="Host Name?" formDetails={formDetails} handleChange={handleChange} />
+                <InputField
+                  name="hostName"
+                  label="My event host is"
+                  formDetails={formDetails}
+                  handleChange={handleChange}
+                />
                 <InputField
                   name="eventName"
-                  label="🎉 My event is called"
+                  label="My event is called"
                   formDetails={formDetails}
                   handleChange={handleChange}
                 />
                 <InputField
                   name="startTime"
-                  label="🗓 It starts at"
+                  label="It starts at"
                   type="datetime-local"
                   formDetails={formDetails}
                   handleChange={handleChange}
                 />
                 <InputField
                   name="endTime"
-                  label="🏁 It ends at"
+                  label="It ends at"
                   type="datetime-local"
                   formDetails={formDetails}
                   handleChange={handleChange}
                 />
                 <InputField
                   name="venue"
-                  label="📍 It's happening at"
+                  label="It's happening at"
                   formDetails={formDetails}
                   handleChange={handleChange}
                 />
                 <InputField
                   name="address"
-                  label="📍 It's located at"
+                  label="It's located at"
                   formDetails={formDetails}
                   handleChange={handleChange}
                 />
